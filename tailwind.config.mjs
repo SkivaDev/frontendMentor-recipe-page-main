@@ -5,7 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'outfit': ['Outfit', 'sans-serif'],
-				'young-serif': ['Young Serif', 'serif'],
+				'young': ['"Young Serif"', 'serif'],
 			},
 			colors: {
 				'nutmeg': 'hsl(14, 45%, 36%)',

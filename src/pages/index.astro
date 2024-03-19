@@ -23,9 +23,11 @@ import "../styles/global.css";
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
-      <section class="mt-7">
-        <h2>Preparation time</h2>
-        <ul>
+      <section class="mt-7 p-8 bg-rose-white rounded-3xl">
+        <h2 class="text-xl text-dark-raspberry font-semibold">
+          Preparation time
+        </h2>
+        <ul class="flex flex-col gap-4 w-full mt-4 pl-10 li-purpure">
           <li><b>Total:</b> Approximately 10 minutes</li>
           <li><b>Preparation:</b> 5 minutes</li>
           <li><b>Cooking:</b> 5 minutes</li>
@@ -35,7 +37,7 @@ import "../styles/global.css";
         <h2 class="text-[32px] font-semibold font-['Young_Serif'] text-nutmeg">
           Ingredients
         </h2>
-        <ul>
+        <ul class="space-y-4 mt-7 pl-10">
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
@@ -49,7 +51,7 @@ import "../styles/global.css";
         <h2 class="text-[32px] font-semibold font-['Young_Serif'] text-nutmeg">
           Instructions
         </h2>
-        <ul>
+        <ol class="space-y-4 mt-7 pl-10 list-decimal">
           <li>
             <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and
             pepper until they are well mixed. You can add a tablespoon of water or
@@ -76,9 +78,9 @@ import "../styles/global.css";
           <li>
             <b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.
           </li>
-        </ul>
+        </ol>
       </section>
-      <hr />
+      <hr class="mt-7" />
       <section class="mt-7">
         <h2 class="text-[32px] font-semibold font-['Young_Serif'] text-nutmeg">
           Nutrition
@@ -87,21 +89,21 @@ import "../styles/global.css";
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <table>
+        <table class="w-full mt-7 border-spacing-[10px]">
           <tbody>
             <tr>
               <td>Calories</td>
-              <td>277kcal</td>
+              <td class="text-nutmeg font-bold">277kcal</td>
             </tr>
-            <tr><td>Carbs</td><td>0g</td></tr>
+            <tr><td>Carbs</td><td class="text-nutmeg font-bold">0g</td></tr>
             <tr>
               <td>Protein</td>
-              <td>20g</td>
+              <td class="text-nutmeg font-bold">20g</td>
             </tr>
             <tr>
-				<td>Fat</td>
-				<td>22g</td>
-			</tr>
+              <td>Fat</td>
+              <td class="text-nutmeg font-bold">22g</td>
+            </tr>
           </tbody>
         </table>
       </section>

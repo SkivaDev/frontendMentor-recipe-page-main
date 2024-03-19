@@ -48,3 +48,7 @@ table tr:not(tr:last-of-type)::after {
 table td {
   padding-bottom: 10px;
 }
+
+li b {
+  @apply text-dark-charcoal
+}
